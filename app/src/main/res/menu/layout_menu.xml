@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/qrcode_input"
+        android:title="QR"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/keyin_input"
+        android:title="預設"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/other_input"
+        android:title="啟用USB鍵盤"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/other2"
+        android:title="其它2"
+        app:showAsAction="never|collapseActionView"
+        />
+
+</menu>
